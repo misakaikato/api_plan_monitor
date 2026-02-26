@@ -1,0 +1,6 @@
+# 将你的 cookies 文件放在此目录
+# 文件名格式: xxx_cookies.json
+# 例如:
+#   - minimax_cookies.json
+#   - zhipu_cookies.json
+#   - codex_cookies.json

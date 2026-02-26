@@ -1,0 +1,32 @@
+# API 套餐监控配置文件示例
+# 复制此文件为 config.toml 并填入实际配置
+
+# MiniMax 配置
+[minimax]
+# API URL（一般不需要修改）
+api_url = "https://www.minimaxi.com/v1/api/openplatform/coding_plan/remains"
+# GroupId（从浏览器开发者工具中获取）
+group_id = "your_group_id_here"
+# Cookies 文件路径
+cookies_file = "cookies/minimax_cookies.json"
+# 显示的模型筛选（如 "M2.5"）
+model_filter = "M2.5"
+
+# 智谱 AI 配置
+[glm]
+# API URL（一般不需要修改）
+api_url = "https://bigmodel.cn/api/monitor/usage/quota/limit"
+# Cookies 文件路径
+cookies_file = "cookies/zhipu_cookies.json"
+
+# Codex (ChatGPT) 配置
+[codex]
+# API URL（一般不需要修改）
+api_url = "https://chatgpt.com/backend-api/wham/usage"
+# Cookies 文件路径
+cookies_file = "cookies/codex_cookies.json"
+
+# 预留其他平台配置
+# [openai]
+# api_url = "..."
+# cookies_file = "cookies/openai_cookies.json"
